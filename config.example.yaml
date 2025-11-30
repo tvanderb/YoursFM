@@ -1,0 +1,10 @@
+station:
+  code: "TVAN"
+  name: "Talon's Radio"
+  frequency: "840"
+  channel: "AM"
+spotify:
+  songs_playlist_id: 5MrQHKHfOMClg3eRnDM69S
+  shows_playlist_id: 6DUFbo5UReMvgvRbK5hMjr
+  client_id: YOUR_SPOTIFY_CLIENT_ID
+  client_secret: YOUR_SPOTIFY_CLIENT_SECRET
