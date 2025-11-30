@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-use crate::YoursFMTrack;
+use crate::{generate_track_id, YoursFMTrack};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct SpotifyTokenRequestResponse {
@@ -131,6 +131,7 @@ pub async fn get_all_yoursfm_tracks_from_spotify_playlist(client_id: String, cli
         }
 
         yoursfm_tracks.push(YoursFMTrack {
+            id: generate_track_id(x.track.name.clone(), artists.clone(), x.track.album.name.clone(), x.track.album.release_date.clone()),
             name: x.track.name,
             album_release_date: x.track.album.release_date,
             artist: artists,
