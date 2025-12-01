@@ -13,3 +13,13 @@ spotify:
   client_secret: YOUR_SPOTIFY_CLIENT_SECRET
 database:
   location: "sqlite://tracks.sqlite.db"
+llm:
+  openrouter_api_key: "YOUR_OPENROUTER_API_KEY"
+  model: "tngtech/tng-r1t-chimera:free"
+tts:
+  elevenlabs_api_key: "YOUR_ELEVENLABS_API_KEY"
+  voice_id: "JBFqnCBsd6RMkjVDRZzb"
+  model: "eleven_turbo_v2_5"
+metadata:
+  lastfm_api_key: "YOUR_LASTFM_API_KEY"
+  musicbrainz_contact: "your-email@example.com"  # Required for MusicBrainz API (polite identification)

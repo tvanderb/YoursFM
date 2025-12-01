@@ -13,3 +13,13 @@ spotify:
   client_secret: a328f5f6ec51489297e28dc156a0714c
 database:
   location: "sqlite://tracks.sqlite.db"
+llm:
+  openrouter_api_key: "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"
+  model: "tngtech/tng-r1t-chimera:free"
+tts:
+  elevenlabs_api_key: "sk_dbacb5c774b56ce251a8eddbda11b298c1738d9c3c230e23"
+  voice_id: "TX3LPaxmHKxFdv7VOQHJ"
+  model: "eleven_v3"
+metadata:
+  lastfm_api_key: "739f21043a7f007fce91cc8e460f15a6"
+  musicbrainz_contact: "talon.vanderbeken@knock.email"
